@@ -1,1 +1,32 @@
- 
+To perform the tasks you've mentioned in Python, you can use the pandas library for data manipulation and
+scikit-learn for data scaling. First, make sure you have these libraries installed.
+If you don't have them installed, you can install them using pip:
+
+Now, you can follow these steps:
+
+1. Read the data from the CSV file and create a DataFrame.
+2. Print the dimensions (shape) of the DataFrame.
+3. Print the column names.
+4. Select the values of the "age" column into an array.
+5. Compute the year of the age values.
+6. Compute the mean, maximum, and minimum of the age values.
+7. Split the data into training and test datasets.
+8. Scale the data using the StandardScaler.
+
+
+
+To create a Logistic Regression model, train it, make predictions, compare the predicted output with the real values,
+print feature importance, and visualize feature importance in a bar chart, you can follow the steps below. 
+Make sure you have already loaded your dataset and split it into training and test sets as shown earlier.
+We will assume you're using scikit-learn and matplotlib for visualization. If you haven't imported these libraries, 
+you can do so at the beginning of your script.
+
+In this code:
+
+- We create a Logistic Regression model, train it on the training data, and then make predictions on the test data.
+- We calculate the accuracy of the model's predictions and print it.
+- We print the importance of each feature in the model.
+- We print the feature values for one sample (proband).
+- We visualize feature importance using a horizontal bar chart.
+
+
